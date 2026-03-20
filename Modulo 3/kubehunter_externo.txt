@@ -1,0 +1,29 @@
+
+Nodes
++-------------+----------------+
+| TYPE        | LOCATION       |
++-------------+----------------+
+| Node/Master | 192.168.56.101 |
++-------------+----------------+
+
+Detected Services
++-------------+----------------------+----------------------+
+| SERVICE     | LOCATION             | DESCRIPTION          |
++-------------+----------------------+----------------------+
+| Kubelet API | 192.168.56.101:10250 | The Kubelet is the   |
+|             |                      | main component in    |
+|             |                      | every Node, all pod  |
+|             |                      | operations goes      |
+|             |                      | through the kubelet  |
++-------------+----------------------+----------------------+
+| Etcd        | 192.168.56.101:2379  | Etcd is a DB that    |
+|             |                      | stores cluster's     |
+|             |                      | data, it contains    |
+|             |                      | configuration and    |
+|             |                      | current              |
+|             |                      | state information,   |
+|             |                      | and might contain    |
+|             |                      | secrets              |
++-------------+----------------------+----------------------+
+
+No vulnerabilities were found
